@@ -5,3 +5,26 @@
     }
 #portfolio{ background-color: white;
     }
+
+
+    .flex-about {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        flex-shrink: 3;
+        /*align-items: left;*/
+        /*justify-content: space-around;*/
+    }
+
+    #aboutpics{ background-color: white;
+        /* width: 30%; */
+        border-style:none;
+        border-width: 5px;
+        }
+
+    #aboutpic2{ background-color: white;
+        /* width: 40%; */
+        /* height: 40%; */
+        border-style: none;
+        border-width: 5px; 
+        }
